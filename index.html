@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>محرك البحث</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+    <!-- رأس الموقع -->
+    <header>
+        <div class="search-container">
+            <input type="text" id="search-bar" placeholder="ابحث هنا..." />
+            <ul id="suggestions" class="suggestions-list"></ul>
+        </div>
+    </header>
+
+    <!-- محتوى الصفحة الرئيسية -->
+    <main>
+        <section id="articles">
+            <h2>المقالات الموصى بها</h2>
+            <div class="article-card">
+                <h3>عنوان المقال الأول</h3>
+                <p>محتوى المقال الأول...</p>
+            </div>
+            <div class="article-card">
+                <h3>عنوان المقال الثاني</h3>
+                <p>محتوى المقال الثاني...</p>
+            </div>
+        </section>
+
+        <!-- تنزيل الملفات -->
+        <section id="downloads">
+            <h2>الملفات القابلة للتنزيل</h2>
+            <button onclick="downloadFile('https://example.com/file.zip')">تحميل ملف آمن</button>
+        </section>
+    </main>
+
+    <!-- أيقونة SVG داخل الصفحة -->
+    <footer>
+        <div class="footer-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
+            </svg>
+        </div>
+    </footer>
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>

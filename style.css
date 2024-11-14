@@ -1,0 +1,69 @@
+/* الوضع الداكن */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #fff;
+    }
+
+    header {
+        background-color: #333;
+    }
+
+    .search-container input {
+        background-color: #555;
+        color: white;
+    }
+
+    footer {
+        background-color: #333;
+    }
+}
+
+/* تنسيق الأيقونات */
+.footer-icon svg {
+    fill: #fff;
+    width: 50px;
+    height: 50px;
+}
+
+/* تنسيق الحقل النصي للبحث */
+.search-container input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* قائمة الاقتراحات */
+.suggestions-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.suggestions-list li {
+    padding: 8px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+}
+
+.suggestions-list li:hover {
+    background-color: #ddd;
+}
+
+/* زر التحميل */
+#downloads button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#downloads button:hover {
+    background-color: #45a049;
+}
